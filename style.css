@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1200px;
+  margin: auto;
+}
+
+.side-header {
+  height: 100px;
+  background-color: rgb(218, 231, 96);
+}
+
+.side-main {
+  height: 500px;
+  background-color: rgb(223, 62, 223);
+}
+
+.side-footer {
+  height: 80px;
+  background-color: rgb(122, 12, 122);
+}

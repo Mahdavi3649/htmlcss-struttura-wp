@@ -11,15 +11,52 @@ body {
 
 .side-header {
   height: 100px;
-  background-color: rgb(218, 231, 96);
+  background-color: rgb(231, 96, 213);
 }
 
 .side-main {
-  height: 500px;
-  background-color: rgb(223, 62, 223);
+  height: 840px;
+}
+
+.top-contain {
+  height: 340px;
+  background-color: rgb(235, 203, 97);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.bottom-contain {
+  height: 490px;
+  background-color: rgb(3, 126, 156);
 }
 
 .side-footer {
-  height: 80px;
+  height: 60px;
   background-color: rgb(122, 12, 122);
+}
+
+.headbar {
+  height: 50px;
+  margin-bottom: 13px;
+  background-color: rgb(146, 231, 231);
+}
+
+.sidebar {
+  width: 20%;
+  height: 414px;
+  background-color: rgb(146, 231, 231);
+  float: left;
+}
+
+.content {
+  width: 56%;
+  height: 414px;
+  float: left;
+  background-color: rgb(146, 231, 231);
+  margin: 0 2%;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
